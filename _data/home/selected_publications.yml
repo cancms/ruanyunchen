@@ -1,0 +1,31 @@
+main:
+
+  - title: Dual Dynamic Perspective for Temporal Knowledge Graph Completion
+    authors: Xinmeng Hou, Z. Cao
+    conference_short: KDD 2025
+    conference: Submitted to ACM SIGKDD (KDD 2025)
+    pdf:
+    code:
+    bibtex: 
+    image:  images/projects/p1.png
+    notes:
+
+  - title: "Mitigating Biases to Embrace Diversity: A Comprehensive Annotation Benchmark for Toxic Language"
+    authors: Xinmeng Hou
+    conference_short: EMNLP-NLP4DH 2024
+    conference: Accepted at EMNLP-NLP4DH 2024
+    pdf:
+    code:
+    bibtex:
+    image:  images/projects/p2.png
+    notes:
+
+  - title: "LanPIP: A Specialized LLM-Empowered Pipeline for Customizable Language Learning"
+    authors: Xinmeng Hou
+    conference_short: KDD’24
+    conference: Presented at KDD’24 Workshop on AI for Education
+    pdf:
+    code:
+    bibtex:
+    image:  images/projects/p3.png
+    notes:
