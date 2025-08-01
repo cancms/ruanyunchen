@@ -9,19 +9,20 @@ on:
   # Runs on pushes targeting the default branch
   # 当代码被推送到默认分支（通常是 main 或 master）时运行
   push:
-    branches: ["main"] # 特指当代码被推送到名为 "main" 的分支时触发
+    branches:  # 特指当代码被推送到名为 "main" 的分支时触发
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   # 允许您从 Actions 标签页手动触发此工作流程
-  workflow_dispatch:
+#  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 # 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages。
 # GITHUB_TOKEN 是 GitHub Actions 自动创建的一个临时令牌，用于在工作流程中授权操作。
-permissions:
-  contents: read    # 允许工作流程读取仓库内容（例如，检出代码）。
-  pages: write      # 允许工作流程写入/部署到 GitHub Pages。
-  id-token: write   # 允许工作流程请求 OpenID Connect (OIDC) ID 令牌，这对于安全的部署流程是必要的。
+#permissions:
+#  contents: read    # 允许工作流程读取仓库内容（例如，检出代码）。
+#  pages: write      # 允许工作流程写入/部署到 GitHub Pages。
+#  id-token: write   # 允许工作流程请求 OpenID Connect (OIDC) ID 令牌，这对于安全的部署流程是必要的。
 
 
 
