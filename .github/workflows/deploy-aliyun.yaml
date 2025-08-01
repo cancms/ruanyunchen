@@ -52,6 +52,8 @@ jobs: # 定义工作流程中的任务（作业）
         uses: actions/upload-pages-artifact@v3 # 使用 `actions/upload-pages-artifact@v3` action
           # 将上一步在 `_site` 目录中生成的静态网站文件
         # 打包并上传。这个产物（artifact）后续会被 `deploy` 作业使用。
+        with:
+          path: ./_site
 
   # Deployment job
   # 部署作业
